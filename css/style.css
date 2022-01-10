@@ -293,23 +293,23 @@ body {
   color: #ffffff;
   background-color: var(--accent-link-color);
 }
-.section-list-title {
-  margin-left: 24px;
+.card-heading {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 img {
   display: block;
+  max-width: 100%;
 }
-.frame {
+.card-frame {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 
-.section-text {
-  margin-bottom: 20px;
+.card-text {
   margin-top: 4px;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
