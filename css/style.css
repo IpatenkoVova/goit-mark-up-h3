@@ -84,6 +84,7 @@ ul {
   align-items: center;
 }
 .site-nav {
+  padding: 32px 0;
   display: flex;
   align-items: center;
 }
@@ -96,7 +97,6 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 .site-nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -104,7 +104,8 @@ ul {
   text-decoration: none;
   color: inherit;
 }
-.site-nav .link:hover {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-link-color);
 }
 
@@ -116,7 +117,8 @@ ul {
   text-decoration: none;
   color: var(--initial-text-color);
 }
-.header-contacts.link:hover {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: var(--accent-link-color);
 }
 
@@ -132,6 +134,9 @@ ul {
 }
 
 .footer-contacts-link:hover {
+  color: var(--accent-link-color);
+}
+.footer-contacts-link:focus {
   color: var(--accent-link-color);
 }
 .contacts-link-address {
@@ -186,13 +191,12 @@ ul {
   color: #ffffff;
 }
 .button {
+  padding: 10px 32px;
   width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.btn-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -206,6 +210,7 @@ ul {
 
   color: #ffffff;
 }
+
 .button:hover {
   cursor: pointer;
 }
@@ -228,9 +233,10 @@ ul {
   margin-right: 30px;
 }
 .section-features-title {
+  font-weight: 700;
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: inherit;
 }
@@ -295,6 +301,7 @@ ul {
   margin-right: 8px;
 }
 .button-link {
+  font-weight: 500;
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.6;
